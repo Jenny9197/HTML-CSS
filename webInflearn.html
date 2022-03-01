@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Potlatch</title>
+    <link rel="" stylesheet " href="https://maxcdn.bootstrapcdn.com /bootstrap/3.3.2/css/bootstrap.min-css ">
+    <link rel="stylesheet " type="text/css " href="myprofilecss.css ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <scirpt type="text/javascript ">
+        $(document).ready(function(){
+            $(".why_potlatch ").click(function(){
+               if($(".list_one ").css('display') == 'none'){
+                $(".list_one ").show()
+               } else {
+                   $(".list_one ").hide()
+               } 
+
+            });
+            
+            $(".why_potlatch ").click(function(){
+                if($(".list_two ").css('display') == 'none'){
+                    $(".list_two ").show()
+                   } else {
+                       $(".list_two ").hide()
+                   } 
+            });
+
+            $(".why_potlatch ").click(function(){
+                if($(".list_three ").css('display') == 'none'){
+                    $(".list_three ").show()
+                   } else {
+                       $(".list_three ").hide()
+                   } 
+            });
+        });
+    </scirpt>
+</head>
+
+<body>
+    <div id="all_of_potlatch ">
+        <div>
+            <img src="C:\Users\User\OneDrive\Desktop\p1.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p2.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p3.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p4.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p6.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p7.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p9.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p10.png " width="300 " height="300 ">
+            <img src="C:\Users\User\OneDrive\Desktop\p11.png " width="300 " height="300 ">
+        </div>
+        <div id="body ">
+            <p class="bg-primary why_potlatch ">Potlatch Special & Meaningful</a>
+           
+            <p class="bg-success ">What is your hobby? </p>
+            <ul class="list_title list_one ">
+                <li>Netflix watch</li>
+                <li>Hiking</li>
+                <li>Cooking</li>
+            </ul>
+            <p class="bg-warning ">What are you interesting now?</p>
+            <ul class="list_title list_two ">
+                <li>Gather with my friend and drink at home</li>
+                <li>Stock</li>
+            </ul>
+            <p class="bg-warning ">What is your motto?</p>
+            <ul class="list_title list_three ">
+                <li>Live healthy</li>
+                <li>Make my music globally</li>
+            </ul>
+        </div>
+        <div class="footer ">
+            <p>
+                If you wish to collaborate with me, Contact me in anytime
+                <span style="color:red ">potlatch.com</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
